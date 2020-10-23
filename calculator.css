@@ -30,6 +30,10 @@
     background-color: rgb(223,151,76);
 }
 
+.calc-button:last-child:hover {
+    background-color:  rgb(223,151,76)
+}
+
 .calc-button-2 {
     background-color: rgb(216,217,219);
     height: 100px;

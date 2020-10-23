@@ -13,39 +13,39 @@
 
             <section class="calculator-buttons">
                 <div class="button-row">
-                    <button class="calc-button-2"> C </button><!--
-                --><button class="calc-button"> ← </button><!--
-                --><button class="calc-button"> ÷ </button>
+                    <button class="calc-button-2" operator="clear"> C </button><!--
+                --><button class="calc-button" operator="backspace"> ← </button><!--
+                --><button class="calc-button" operator="divide"> ÷ </button>
                 </div>
 
                 <div class="button-row">
                     <button class="calc-button"> 7 </button><!--
                     --><button class="calc-button"> 8 </button><!--
                     --><button class="calc-button"> 9 </button><!--
-                    --><button class="calc-button"> × </button>
+                    --><button class="calc-button" operator="multiply"> × </button>
                 </div>
 
                 <div class="button-row">
                     <button class="calc-button"> 4 </button><!--
                     --><button class="calc-button"> 5 </button><!--
                     --><button class="calc-button"> 6 </button><!--
-                    --><button class="calc-button"> - </button>
+                    --><button class="calc-button" operator="subtract"> - </button>
                 </div>
 
                 <div class="button-row">
                     <button class="calc-button"> 1 </button><!--
                     --><button class="calc-button"> 2 </button><!--
                     --><button class="calc-button"> 3 </button><!--
-                    --><button class="calc-button"> + </button>
+                    --><button class="calc-button" operator="add"> + </button>
                 </div>
 
                 <div class="button-row">
                     <button class="calc-button-3"> 0 </button><!--
-                    --><button class="calc-button"> = </button>
+                    --><button class="calc-button" operator="equal"> = </button>
                 </div>
             </section>
         </div>
 
-        <script src="calculator.js"> </script>
+        <script src="calculator.js"></script>
     </body>
 </html>
