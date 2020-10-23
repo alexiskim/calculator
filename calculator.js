@@ -13,7 +13,6 @@ function useButton(value) {
             output += value;
         }
     }
-    console.log(output);
     result.innerText = output;
 }
 
